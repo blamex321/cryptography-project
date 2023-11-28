@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Vigenère Cipher', href: '/vigenere-cipher', current: false },
   { name: 'Play Fair Cipher', href: '/play-fair-cipher', current: false },
   { name: 'RSA Algorithm Cipher', href: '/rsa-cipher', current: false },
+  { name: 'Transposition Cipher', href: '/transposition-cipher', current: false },
 ]
 
 function classNames(...classes) {

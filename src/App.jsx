@@ -5,6 +5,7 @@ import Topbar from "./components/Topbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PlayfairCipher from "./components/PlayFairCipher";
 import RSAAlgorithm from "./components/RSACipher";
+import TranspositionCipher from "./components/TranspositionCipher";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/rsa-cipher",
     element: <RSAAlgorithm /> ,
+  },
+  {
+    path: "/transposition-cipher",
+    element: <TranspositionCipher /> ,
   },
 ]);
 
